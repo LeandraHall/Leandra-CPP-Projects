@@ -9,7 +9,6 @@ int main(){
 
     //Variable declarations
     float hours;
-    int parkingFee;
 
     //User prompt for input
     cout << "How long have you parked?" << endl;
