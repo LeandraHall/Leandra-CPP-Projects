@@ -19,3 +19,27 @@ This program will calculate the area of a circle based on a user-inputted radius
 ### [countingVowelsFunction.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/countingVowelsFunction.cpp)
 
 Using a function, this program should determine the number of vowels in an inputted string.
+
+### [fizzbuzzPractice.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/fizzbuzzPractice.cpp)
+
+This program will print out "fizzbuzz", "fizz", or "buzz" based on whether a user-inputted integer is divisible by both 5 and 3 or divisible by 3 or 5.
+
+### [hw2Code.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/hw2Code.cpp)
+
+This program will create a dynamically-defined array based on inputted parameters from the user and store values defined by the user. Then it will find the smallest value of the array as well as print all of the array's values by using functions. 
+
+### [leandraHallCh6EnumerationHW.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraHallCh6EnumerationHW.cpp)
+
+This program should create two enumeration types with five things in each type and perform operations on these types such as assignment and comparison.
+Functions printColor and printDay allow the program to print out the day or color specified in the enumerated type.
+
+### [leandraHallComfyShellPartA.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraHallComfyShellPartA.cpp) 
+
+This program will print out the number of arguments and the value of the arguments provided by the user through the CLI with argv and argc.
+
+### [leandraHallComfyShellPartB.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraHallComfyShellPartB.cpp)
+
+This program will create a new shell titled "Comfy" for the user's CLI. It will then  tokenize the user’s input into a NULL-terminated array of char
+strings. A child process, utilizing fork(), will be created and he child will invoke the execv() function to execute the user’s command (in argv[0]) 
+and also pass the cmd_args[] array to execv(). The parent process will wait for the child to exit. If the child’s execv() call returns an error, the child should exit and return the error number to the parent.
+The parent should print this to the screen.
