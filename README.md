@@ -43,3 +43,14 @@ This program will create a new shell titled "Comfy" for the user's CLI. It will 
 strings. A child process, utilizing fork(), will be created and he child will invoke the execv() function to execute the user’s command (in argv[0]) 
 and also pass the cmd_args[] array to execv(). The parent process will wait for the child to exit. If the child’s execv() call returns an error, the child should exit and return the error number to the parent.
 The parent should print this to the screen.
+
+### [leandraHallDonutShopCode2.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraHallDonutShopCode2.cpp)
+
+The program is a doughnut shop that utilizes 3 threads of execution, corresponding to the three co-
+dependent segments of the business: the factory, the warehouse and the sales counter. The factory will produce one doughnut every ½ second. 
+These doughnuts are fed by a conveyorbelt to the warehouse. The warehouse collects the doughnuts 12 at a time and puts them in boxes. 
+The boxes then go on a shelf awaiting a sale. The warehouse keeps a running total of the number of boxes in inventory. Because the warehouse can only store 10 boxes, once the
+shelves are full, the warehouse instructs the factory to halt production until the sales office has sold at least one box of doughnuts, making room for more inventory. 
+Before the sales office can close a sale, it must verify that the warehouse has sufficient inventory to fill the order. If not, the sale must be declined. 
+If the sale can be filled, the sales office must properly adjust the warehouse’s inventory levels so that the inventory count remains accurate. Sales are by the boxes only.
+
