@@ -47,10 +47,35 @@ The parent should print this to the screen.
 ### [leandraHallDonutShopCode2.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraHallDonutShopCode2.cpp)
 
 The program is a doughnut shop that utilizes 3 threads of execution, corresponding to the three co-
-dependent segments of the business: the factory, the warehouse and the sales counter. The factory will produce one doughnut every ½ second. 
-These doughnuts are fed by a conveyorbelt to the warehouse. The warehouse collects the doughnuts 12 at a time and puts them in boxes. 
+dependent segments of the business: the factory, the warehouse, and the sales counter. The factory will produce one doughnut every ½ second. 
+These doughnuts are fed by a conveyor belt to the warehouse. The warehouse collects the doughnuts 12 at a time and puts them in boxes. 
 The boxes then go on a shelf awaiting a sale. The warehouse keeps a running total of the number of boxes in inventory. Because the warehouse can only store 10 boxes, once the
 shelves are full, the warehouse instructs the factory to halt production until the sales office has sold at least one box of doughnuts, making room for more inventory. 
 Before the sales office can close a sale, it must verify that the warehouse has sufficient inventory to fill the order. If not, the sale must be declined. 
 If the sale can be filled, the sales office must properly adjust the warehouse’s inventory levels so that the inventory count remains accurate. Sales are by the boxes only.
 
+### [leandraHallExam2ProgrammingQuestion.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraHallExam2ProgrammingQuestion.cpp)
+
+This program will calculate the total cost of staying at a hotel by prompting the user to input the price of a hotel room, the number rooms to be booked, the duration of their stay in days, and the sales tax. Based on the number of rooms
+to be booked, discounts may be applied.
+
+### [leandraHallIteratorsHW.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraHallIteratorsHW.cpp)
+This program prompts the user to input 10 integers and stores those values into a vector. It then calculates the sum of the integers in the vector.
+
+### [leandraHallPA3P2.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraHallPA3P2.cpp)
+
+This program should open, read, and print out contents from a file specified in the Command Line by utilizing the variables
+argc and argv. Additionally, the program adds each character from the file into a linked list, prints out the list's contents,
+and removes each character from the linked list using methods such as addFront, removeFront, and printList.
+
+### [leandraHallPA3P3.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects)
+
+This program should open, read, and print out contents from a file specified in the Command Line by utilizing the variables
+argc and argv. Additionally, the program evaluates whether or not the characters in a sentence from each line are legal or not
+through the method isBalanced.
+
+
+### [leandraHallProgrammingAssignment3.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraHallProgrammingAssignment3.cpp)
+
+This program should open, read, and print out contents from a file specified in the Command Line by utilizing the variables
+argc and argv. 
