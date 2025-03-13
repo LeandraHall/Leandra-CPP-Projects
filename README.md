@@ -79,3 +79,40 @@ through the method isBalanced.
 
 This program should open, read, and print out contents from a file specified in the Command Line by utilizing the variables
 argc and argv. 
+
+### [leandraHallRecursionPractice.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraHallRecursionPractice.cpp)
+
+This program performs recursion based on two inputted numbers.
+
+### [leandraHallStaticArrayCode.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraHallStaticArrayCode.cpp)
+
+This program should prompt the user for 10 integers and store those values in a statically defined array.
+Then, it calculates the sum of the integers and prints each integer along with the resulting sum.  
+
+### [leandraHallVectorArray.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraHallVectorArray.cpp)
+
+This program prompts the user for 10 integers and stores those values into a Vector.
+Then it calculates the sum of the integers and prints each integer along with the resulting sum.
+
+### [leandraParkingFee.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraParkingFee.cpp)
+
+This program calculates the parking fee for a car parked in a parking lot based on the hours inputted by the user. 
+
+### [leandraPublicationRoyalties.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraParkingFee.cpp)
+
+This code calculates the royalty money for each option and displays the best one based on the user inputting the number of books
+and the net price of each book.
+
+### [leandraRussianRoulette.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/leandraRussianRoulette.cpp)
+
+This code simulates a game of Russian Roulette based on a User-Inputted bet selection provided by a menu.
+
+### [vendingMachine.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/vendingMachine.cpp)
+
+This code should operate like a vending machine as it should: 1. Be able to select and purchase an item 2. Deposited money can be withdrawn, and 3. Items in the vending machine can be replenished.
+
+### [weightedAverage.cpp](https://github.com/LeandraHall/Leandra-CPP-Projects/blob/main/weightedAverage.cpp)
+This program calculates points awarded for homework, lab and exams plus the weighted average based on user input.
+
+
+
